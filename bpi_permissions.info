@@ -1,0 +1,14 @@
+name = BPI Permissions
+description = Default role permissions for BPI module
+core = 7.x
+package = Artesis
+version = 7.x-0.1
+project = bpi_permissions
+dependencies[] = bpi
+dependencies[] = features
+features[features_api][] = api:1
+features[user_permission][] = administer bpi
+features[user_permission][] = bpi push content
+features[user_permission][] = bpi syndicate content
+features[user_permission][] = delete bpi content
+features[user_permission][] = view bpi statistics
